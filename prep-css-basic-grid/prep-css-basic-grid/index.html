@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      max-width: 55%;
+      margin: 10px;
+      flex-basis: calc(100% / 6);
+      padding: 5px;
+      background-color: rgb(145, 156, 124);
+      border-radius: 2%;
+    }
+
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Corrupti tempora assumenda et maiores beatae vel commodi quia,
+        inventore dolores. Quam eligendi at animi temporibus, numquam
+        debitis magni quasi unde non blanditiis ut nobis eaque placeat.
+      </p>
+      <img src="images/center-image.jpg" alt="center-image" style="width: 350px; height 350px">
+    </div>
+
+    <div class="column">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Corrupti tempora assumenda et maiores beatae vel commodi quia,
+        inventore dolores. Quam eligendi at animi temporibus, numquam
+        debitis magni quasi unde non blanditiis ut nobis eaque placeat.
+      </p>
+      <img src="images/left-image.jpg" alt="left-image" style="width: 350px; height 350px">
+    </div>
+
+    <div class="column">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Corrupti tempora assumenda et maiores beatae vel commodi quia,
+      inventore dolores. Quam eligendi at animi temporibus, numquam
+      debitis magni quasi unde non blanditiis ut nobis eaque placeat.
+    </p>
+    <img src="images/right-image.jpg" alt="right-image" style="width: 350px; height 350px">
+   </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
